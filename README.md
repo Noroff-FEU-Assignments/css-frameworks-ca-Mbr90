@@ -1,5 +1,3 @@
-# CSS Frameworks Course Assignment
-
 ## Brief
 
 From the supplied design, use Bootstrap or React Bootstrap to create a responsive website.

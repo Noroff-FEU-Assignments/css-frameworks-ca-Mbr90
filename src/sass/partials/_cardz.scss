@@ -1,0 +1,35 @@
+.cardz {
+    width: 264px;
+    height: auto;
+}
+.cardz__image {
+    width: 264px;
+    height: 190px;
+}
+
+.card-title {
+    font-weight: bold;
+    color: getColour(sort);
+}
+
+.page-item {
+    border: solid 1px getColour(highlight);
+}
+
+.page-link {
+    color: getColour(highlight);
+}
+
+.card__button {
+    width: 100%;
+    height: 50px;
+    border: none !important;
+    color: white;
+    background: linear-gradient(
+        to right,
+        getColour(highlight) 0%,
+        getColour(highlight) 85%,
+        getColour(gra) 85%,
+        getColour(gra) 100%
+      );
+}
